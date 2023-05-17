@@ -1,0 +1,328 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+o o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Jacking in...
+; Connecting using "Babashka" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd /Users/rishabh/workspace/python/practice/lisp/basics ; bb --nrepl-server 56316 ; popd
+; Using host:port 127.0.0.1:56316 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉user꞉>  ; Use `alt+enter` to evaluate
+clj꞉user꞉> 
+; Jack-in done.
+clj꞉user꞉> 
+; clojure.lang.ExceptionInfo: Could not resolve symbol: gcd user /Users/rishabh/workspace/python/practice/lisp/basics/assignments/gcd.clj:1:1
+clj꞉user꞉> 
+#'user/gcd
+clj꞉user꞉> 
+7
+clj꞉user꞉> 
+#'user/gcd2
+clj꞉user꞉> 
+0
+clj꞉user꞉> 
+0
+clj꞉user꞉> 
+#'user/gcd2
+clj꞉user꞉> 
+49
+clj꞉user꞉> 
+#'user/gcd2
+clj꞉user꞉> 
+49
+clj꞉user꞉> 
+56
+clj꞉user꞉> 
+#'user/gcd2
+clj꞉user꞉> 
+7
+clj꞉user꞉> 
+49
+clj꞉user꞉> 
+#'user/gcd2
+clj꞉user꞉> 
+; java.lang.StackOverflowError: [no exception stack trace available because exception is thrown from code that must be allocation free] user /Users/rishabh/workspace/python/practice/lisp/basics/assignments/gcd.clj:3:34
+clj꞉user꞉> 
+#'user/gcd2
+clj꞉user꞉> 
+49
+clj꞉user꞉> 
+#'user/gcd2
+clj꞉user꞉> 
+49
+clj꞉user꞉> 
+#'user/gcd2
+clj꞉user꞉> 
+56
+clj꞉user꞉> 
+#'user/gcd2
+clj꞉user꞉> 
+7
+clj꞉user꞉> 
+7
+clj꞉user꞉> 
+#'user/gcd2
+clj꞉user꞉> 
+7
+clj꞉user꞉> 
+#'user/lcm
+clj꞉user꞉> 
+12
+clj꞉user꞉> 
+12
+clj꞉user꞉> 
+392
+clj꞉user꞉> 
+#'user/simple-interest
+clj꞉user꞉> 
+10000
+clj꞉user꞉> 
+100.0
+clj꞉user꞉> 
+1000.0
+clj꞉user꞉> 
+2
+clj꞉user꞉> 
+2
+clj꞉user꞉> 
+200.0
+clj꞉user꞉> 
+; clojure.lang.ExceptionInfo: Could not resolve symbol: compound-interest user /Users/rishabh/workspace/python/practice/lisp/basics/assignment.clj:1:1
+clj꞉user꞉> 
+#'user/pow
+clj꞉user꞉> 
+#'user/compound-interest
+clj꞉user꞉> 
+1210.0000000000002
+clj꞉user꞉> 
+#'user/compound-interest
+clj꞉user꞉> 
+210.00000000000023
+clj꞉user꞉> 
+#'user/fahrenheit->centigrade
+clj꞉user꞉> 
+0N
+clj꞉user꞉> 
+#'user/centigrade->fahrenheit
+clj꞉user꞉> 
+448/5
+clj꞉user꞉> 
+32N
+clj꞉user꞉> 
+556/5
+clj꞉user꞉> 
+#'user/centigrade->fahrenheit
+clj꞉user꞉> 
+111.2
+clj꞉user꞉> 
+#'user/centigrade->fahrenheit
+clj꞉user꞉> 
+111.2
+clj꞉user꞉> 
+0N
+clj꞉user꞉> 
+#'user/sum-till-n
+clj꞉user꞉> 
+55
+clj꞉user꞉> 
+5050
+clj꞉user꞉> 
+45
+clj꞉user꞉> 
+4950
+clj꞉user꞉> 
+#'user/greatest-of-three
+clj꞉user꞉> 
+12
+clj꞉user꞉> 
+11
+clj꞉user꞉> 
+#'user/second-greatest-of-three
+clj꞉user꞉> 
+; java.lang.ClassCastException: java.lang.Long cannot be cast to clojure.lang.IFn user /Users/rishabh/workspace/python/practice/lisp/basics/assignment.clj:1:40
+clj꞉user꞉> 
+#'user/second-greatest-of-three
+clj꞉user꞉> 
+; java.lang.ClassCastException: java.lang.Long cannot be cast to clojure.lang.IFn user /Users/rishabh/workspace/python/practice/lisp/basics/assignment.clj:1:40
+clj꞉user꞉> 
+#'user/second-greatest-of-three
+clj꞉user꞉> 
+; java.lang.ClassCastException: java.lang.Long cannot be cast to clojure.lang.IFn user /Users/rishabh/workspace/python/practice/lisp/basics/assignment.clj:1:40
+clj꞉user꞉> 
+#'user/second-greatest-of-three
+clj꞉user꞉> 
+8
+clj꞉user꞉> 
+9
+clj꞉user꞉> 
+10
+clj꞉user꞉> 
+#'user/divisible?
+clj꞉user꞉> 
+true
+clj꞉user꞉> 
+false
+clj꞉user꞉> 
+true
+clj꞉user꞉> 
+false
+clj꞉user꞉> 
+#'user/gcd3
+clj꞉user꞉> 
+; java.lang.ClassCastException: java.lang.Long cannot be cast to clojure.lang.IFn user /Users/rishabh/workspace/python/practice/lisp/basics/assignment.clj:3:39
+clj꞉user꞉> 
+#'user/gcd3
+clj꞉user꞉> 
+7
+clj꞉user꞉> 
+7
+clj꞉user꞉> 
+#'user/gcd
+clj꞉user꞉> 
+7
+clj꞉user꞉> 
+7
+clj꞉user꞉> 
+; nREPL Connection was closed
+; Jacking in...
+; Connecting using "deps.edn" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd /Users/rishabh/workspace/python/practice/lisp/basics ; clojure -Sdeps '{:deps {nrepl/nrepl {:mvn/version,"1.0.0"},cider/cider-nrepl {:mvn/version,"0.28.5"}}}' -M -m nrepl.cmdline --middleware "[cider.nrepl/cider-middleware]" ; popd
+; Using host:port localhost:57977 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉user꞉> 
+clj꞉user꞉> 
+; Jack-in done.
+clj꞉user꞉> 
+; Syntax error compiling at (assignment.clj:42:1).
+; Unable to resolve symbol: gcd in this context
+clj꞉user꞉> 
+; Syntax error compiling at (conditions.clj:0:0).
+; Can't take value of a macro: #'clojure.core/let
+clj꞉user꞉> 
+nil
+clj꞉user꞉> 
+25
+clj꞉user꞉> 
+25
+clj꞉user꞉> 
+25
+clj꞉user꞉> 
+; Connecting using "deps.edn" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Connecting ...
+; Reading port file: file:///Users/rishabh/workspace/python/practice/lisp/basics/.nrepl-port ...
+; Using host:port localhost:57977 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉user꞉> 
+clj꞉user꞉> 
+; Connecting using "undefined" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Aborting connect, error determining connect sequence.
+; Jacking in...
+; Connecting using "deps.edn" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd /Users/rishabh/workspace/python/practice/lisp/basics ; clojure -Sdeps '{:deps {nrepl/nrepl {:mvn/version,"1.0.0"},cider/cider-nrepl {:mvn/version,"0.28.5"}}}' -M -m nrepl.cmdline --middleware "[cider.nrepl/cider-middleware]" ; popd
+; nREPL Connection was closed
+; Using host:port localhost:58046 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉user꞉> 
+clj꞉user꞉> 
+; Jack-in done.
+clj꞉user꞉> 
+25
+clj꞉user꞉> 
+"Five hundered"
+clj꞉user꞉> 
+"No Number"
+clj꞉user꞉> 
+"thirty"
+clj꞉user꞉> 
+:not-big
+clj꞉user꞉> 
+; Execution error (ArityException) at user/eval7633 (REPL:8).
+; Wrong number of args (1) passed to: clojure.core/contains?
+clj꞉user꞉> 
+1
+clj꞉user꞉> 
+true
+clj꞉user꞉> 
+#'user/days-in-month-case
+clj꞉user꞉> 
+31
+clj꞉user꞉> 
+31
+clj꞉user꞉> 
+28
+clj꞉user꞉> 
+30
+clj꞉user꞉> 
+30
+clj꞉user꞉> 
+#'user/days-in-month-case
+clj꞉user꞉> 
+30
+clj꞉user꞉> 
+31
+clj꞉user꞉> 
+#'user/days-in-month-cond
+clj꞉user꞉> 
+30
+clj꞉user꞉> 
+#'user/days-in-month-cond
+clj꞉user꞉> 
+31
+clj꞉user꞉> 
