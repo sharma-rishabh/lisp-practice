@@ -326,3 +326,182 @@ clj꞉user꞉> 
 clj꞉user꞉> 
 31
 clj꞉user꞉> 
+#'user/days-in-month-conp
+clj꞉user꞉> 
+; Syntax error compiling at (conditions.clj:42:1).
+; Unable to resolve symbol: days-in-month-condp in this context
+clj꞉user꞉> 
+#'user/days-in-month-conp
+clj꞉user꞉> 
+; Syntax error compiling at (conditions.clj:42:1).
+; Unable to resolve symbol: days-in-month-condp in this context
+clj꞉user꞉> 
+#'user/days-in-month-condp
+clj꞉user꞉> 
+:July
+clj꞉user꞉> 
+; Syntax error compiling at (conditions.clj:46:5).
+; Unable to resolve symbol: divisible? in this context
+clj꞉user꞉> 
+#'user/divisible?
+clj꞉user꞉> 
+#'user/divisible?
+clj꞉user꞉> 
+#'user/fizz-buzz-cond
+clj꞉user꞉> 
+:fizz-buzz
+clj꞉user꞉> 
+:fizz-buzz
+clj꞉user꞉> 
+2
+clj꞉user꞉> 
+:fizz-buzz
+clj꞉user꞉> 
+#'user/fizz-buzz-cond
+clj꞉user꞉> 
+:fizz
+clj꞉user꞉> 
+5
+clj꞉user꞉> 
+15
+clj꞉user꞉> 
+:fizz-buzz
+clj꞉user꞉> 
+16
+clj꞉user꞉> 
+#'user/fizz-buzz-condp
+clj꞉user꞉> 
+; Execution error (IllegalArgumentException) at user/fizz-buzz-condp (REPL:53).
+; No matching clause: 16
+clj꞉user꞉> 
+#'user/fizz-buzz-condp
+clj꞉user꞉> 
+16
+clj꞉user꞉> 
+3
+clj꞉user꞉> 
+3
+clj꞉user꞉> 
+3
+clj꞉user꞉> 
+#function[clojure.core/juxt/fn--5893]
+clj꞉user꞉> 
+[6 4]
+clj꞉user꞉> 
+5
+clj꞉user꞉> 
+5
+clj꞉user꞉> 
+; Syntax error compiling at (array-methods.clj:1:2).
+; Unable to find static field: sqrt in class java.lang.Math
+clj꞉user꞉> 
+; Syntax error compiling at (array-methods.clj:0:0).
+; Unable to resolve symbol: sqrt in this context
+clj꞉user꞉> 
+; Syntax error compiling at (array-methods.clj:1:16).
+; Unable to resolve symbol: x in this context
+clj꞉user꞉> 
+#'user/sqrt
+clj꞉user꞉> 
+6.0
+clj꞉user꞉> 
+5.0990195135927845
+clj꞉user꞉> 
+(0 1 2 3 4)
+clj꞉user꞉> 
+#'user/numbers
+clj꞉user꞉> 
+(0 1 2 3 4)
+clj꞉user꞉> 
+(0 1 2 3 4)
+clj꞉user꞉> 
+(0 1 2 3 4)
+clj꞉user꞉> 
+(0 1 2 3 4)
+clj꞉user꞉> 
+#'user/numbers
+clj꞉user꞉> 
+(0 1 2 3 4)
+clj꞉user꞉> 
+(0 1 2 3 4)
+clj꞉user꞉> 
+#'user/fib
+clj꞉user꞉> 
+5
+clj꞉user꞉> 
+; Error printing return value (ClassCastException) at user/fib$fn (NO_SOURCE_FILE:5).
+; class java.lang.Long cannot be cast to class clojure.lang.IFn (java.lang.Long is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉user꞉> 
+#'user/fib
+clj꞉user꞉> 
+(0 1 1 2 3)
+clj꞉user꞉> 
+(0 1 1 2 3 5 8 13 21 34)
+clj꞉user꞉> 
+(5 6 7 8 9)
+clj꞉user꞉> 
+; Syntax error compiling at (array-methods.clj:11:14).
+; Unable to resolve symbol: intermidiate-term-generator in this context
+clj꞉user꞉> 
+; Syntax error compiling at (array-methods.clj:11:14).
+; Unable to resolve symbol: intermidiate-term-generator in this context
+clj꞉user꞉> 
+; Syntax error compiling at (array-methods.clj:10:8).
+; Unable to resolve symbol: n in this context
+clj꞉user꞉> 
+(5 6 7 8 9)
+clj꞉user꞉> 
+#function[clojure.core/iterate]
+clj꞉user꞉> 
+(5 6 7 8 9)
+clj꞉user꞉> 
+#'user/intermidiate-term-generator
+clj꞉user꞉> 
+#'user/fib
+clj꞉user꞉> 
+(0 1 3 8 21 55 144 377 987 2584)
+clj꞉user꞉> 
+#'user/fib
+clj꞉user꞉> 
+([0 1] [1 2] [3 5] [8 13] [21 34] [55 89] [144 233] [377 610] [987 1597] [2584 4181])
+clj꞉user꞉> 
+#'user/fib
+clj꞉user꞉> 
+([0 1] [1 2] [3 5] [8 13] [21 34])
+clj꞉user꞉> 
+([0 1] [1 2] [3 5] [8 13] [21 34])
+clj꞉user꞉> 
+#'user/fib
+clj꞉user꞉> 
+([0 1] [1 2] [3 5] [8 13])
+clj꞉user꞉> 
+#'user/fib
+clj꞉user꞉> 
+([0 1] [1 2] [3 5] [8 13] [21 34] [55 89] [144 233] [377 610] [987 1597])
+clj꞉user꞉> 
+#'user/fib
+clj꞉user꞉> 
+(0 1 1 2 3 5 8 13 21)
+clj꞉user꞉> 
+(0 1 1 2 3 5 8 13 21 34)
+clj꞉user꞉> 
+(0 1 1 2 3 5 8 13 21 34)
+clj꞉user꞉> 
+(1 2 6 42 1806)
+clj꞉user꞉> 
+; Error printing return value (UnsupportedOperationException) at clojure.lang.RT/nthFrom (RT.java:992).
+; nth not supported on this type: Long
+clj꞉user꞉> 
+; Error printing return value (UnsupportedOperationException) at clojure.lang.RT/nthFrom (RT.java:992).
+; nth not supported on this type: Long
+clj꞉user꞉> 
+([1 1] [1 2] [2 3] [6 4] [24 5])
+clj꞉user꞉> 
+([1 2] [2 3] [6 4] [24 5] [120 6])
+clj꞉user꞉> 
+(1 2 6 24 120)
+clj꞉user꞉> 
+#'user/fact
+clj꞉user꞉> 
+(1 2 6 24 120)
+clj꞉user꞉> 
