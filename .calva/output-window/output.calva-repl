@@ -505,3 +505,15 @@ clj꞉user꞉> 
 clj꞉user꞉> 
 (1 2 6 24 120)
 clj꞉user꞉> 
+#'user/intermidiate-term-generator
+clj꞉user꞉> 
+#'user/intermidiate-term-generator
+clj꞉user꞉> 
+#'user/fib
+clj꞉user꞉> 
+(0 1 1 2 3 5 8 13 21 34)
+clj꞉user꞉> 
+#'user/fact
+clj꞉user꞉> 
+120
+clj꞉user꞉> 
